@@ -20,7 +20,7 @@ document.getElementById("No").addEventListener("mouseover",function(){
     noButton.style.left=randomX+"px";
     noButton.style.top=randomY+"px";
     
-    content=["Really?","Why not?","Heyy!!","Come on!","Seriously?","Chill!!","Think!!","Give a try!","Ha ha ha!!","I disagre!!","Not happening🗿","Bruhh!"]
+    content=["Really?","Why not?","Heyy!!","Come on!","Seriously?","Chill!!","Think!!","Give a try!","Ha ha ha!!","I disagre!!","Not happening🗿","Bruhh!","pls!"]
     noButton.innerHTML = "No<br><span style='font-size: 14px; color: gray;'>(" 
     + content[Math.floor(Math.random() * content.length)] + ")</span>";
 });
